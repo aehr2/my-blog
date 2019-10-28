@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article>
+    <header>
+        <title>{{ post.title }}</title>
+        <span class="description">
+            by <span class="author">{{ post.author }}</span> on <span class="date">{{ post.date }}</span>
+        </span>
+        <span class="tags">
+            Tags: {{ post.tags }}
+        </span>
+    </header>
+    <section>
+        {{ content }}
+    </section>
+    <footer>
+        This article last edited on the $lastmod$. Last revision: <a href="https://github.com/peri4n/my-site/commit/$revision$">$revision$</a>
+    </footer>
+</article>

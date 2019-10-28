@@ -1,0 +1,29 @@
+
+body {
+    // 60% of screen horizontally centered
+    width: 60%;
+    margin: auto;
+
+    display: grid;
+    // 100px header and footer
+    grid-template-rows: 80px auto 100px;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+
+    > main {
+        grid-area: main;
+        min-height: 800px;
+        padding-top: 30px;
+    }
+
+    > footer {
+        grid-area: footer;
+    }
+
+    > header {
+        grid-area: header;
+}
+}

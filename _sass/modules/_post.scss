@@ -1,0 +1,53 @@
+body main article {
+    header {
+        title {
+            font-size: 2em;
+            text-align: center;
+            padding-bottom: 25px;
+            display: block;
+        }
+        .description {
+            display: block;
+            margin-left: 50%;
+            font-size: 0.6em;
+
+            .author {
+                color: grey;
+            }
+            .date {
+                color: grey;
+            }
+        }
+
+        padding-bottom: 30px;
+    }
+    section {
+        font-size: 1.2em;
+        width: 70%;
+        margin: auto;
+        line-height: 1.7em;
+
+        .sourceCode {
+            line-height: 1.5em;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            margin-top: 0.67em;
+            margin-bottom: 0.47em;
+        }
+
+        ul {
+          list-style-type: square;
+          margin-bottom: 20px;
+          li {
+            margin-left: 50px;
+          }
+        }
+    }
+
+    footer {
+        width: 70%;
+        margin: 60px auto;
+    }
+}

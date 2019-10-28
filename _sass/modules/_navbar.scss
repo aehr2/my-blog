@@ -1,0 +1,31 @@
+body > header {
+    border-bottom: 2px solid #eee;
+    padding-top: 20px;
+    nav {
+        ul {
+            list-style-type: none;
+            background-color: #dddddd;
+
+            li {
+                display: inline;
+                float: right;
+                list-style: none;
+
+                a {
+                    display: block;
+                    padding: 8px;
+                    font-size: 30px;
+
+                    &:hover {
+                        color: #666;
+                    }
+                }
+            }
+
+            li:first-child {
+                float: left;
+            }
+
+        }
+    }
+}

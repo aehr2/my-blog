@@ -1,0 +1,12 @@
+
+* {
+    color:black;
+}
+
+a {
+    color: $red;
+    text-decoration: none;
+    &:visited {
+        color: $red;
+    }
+}
